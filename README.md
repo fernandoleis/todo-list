@@ -20,6 +20,7 @@ Poc para armazenar e atualizar tarefas - Java 11 - SpringBoot - Banco H2 - Oauth
 `http://127.0.0.1:8080/todo-list/api/v1/actuator/prometheus` <br>
 
 - **Users do Sisema**<br>
+<br>
 `email: admin@admin.com`<br>
 `password: admin`<br>
 `role: ROLE_ADMIN`<br>
@@ -89,10 +90,16 @@ Poc para armazenar e atualizar tarefas - Java 11 - SpringBoot - Banco H2 - Oauth
 - **Executar Docker-compose** Pelo terminal ou prompt de comando execute o comando na pasta principal do projeto(**`docker-compose up`**)*
 **É preciso configurar os arquivos docker-compose.yml e prometheus.yml para a máquina específica**
 
+## Jmeter
+
+![image](https://user-images.githubusercontent.com/10129476/114401845-ac5c2480-9b79-11eb-854f-12f4f3946c66.png)
+
 ## Images / Imagens 
 
-
-
+![image](https://user-images.githubusercontent.com/10129476/114401731-951d3700-9b79-11eb-87fd-64ce207bbdda.png)
+![image](https://user-images.githubusercontent.com/10129476/114401774-9d757200-9b79-11eb-81d1-e6fa93ae145d.png)
+![image](https://user-images.githubusercontent.com/10129476/114401884-b2ea9c00-9b79-11eb-8250-7e591df163f7.png)
+![image](https://user-images.githubusercontent.com/10129476/114401926-bc740400-9b79-11eb-9407-f82c542627f7.png)
 
 ###### Nota: Necessário java 11
 
