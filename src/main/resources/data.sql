@@ -1,4 +1,3 @@
--- INSERT INTO USER(ID, EMAIL, NAME, PASSWORD) VALUES(1, 'admin@admin.com', 'Usuário Admin', 'admin');
 INSERT INTO USER(ID, EMAIL, NAME, PASSWORD) VALUES(1, 'admin@admin.com', 'Usuário Admin', '$2a$10$xVLJc/h2DEBLBKS/dfVYbekn82InJI3nAVfFFswMrbx2/ESD2ieSS');
 INSERT INTO USER(ID, EMAIL, NAME, PASSWORD) VALUES(2, 'fulano@fulano.com', 'Usuário Fulano', '$2a$10$vn0ijDzQ.LJ1/qOmtluAlu8utwiBo3PnCrVwYLYzuHfC339ooOJ2.');
 INSERT INTO USER(ID, EMAIL, NAME, PASSWORD) VALUES(3, 'ciclano@ciclano.com', 'Usuário Ciclano', '$2a$10$hsIEt.qlkZHIh1dYo.bdEegdmN3nZ1uBtGSltMj7oob1Uz15FbnWm');

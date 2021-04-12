@@ -26,7 +26,7 @@ public class Oauth2ServerConfiguration extends ResourceServerConfigurerAdapter {
                 .clearAuthentication(true)
                 .and().authorizeRequests()
                 .antMatchers(HttpMethod.OPTIONS, "/**").permitAll()
-                .antMatchers(  "/h2-console/**").permitAll()
+                .antMatchers("/h2-console/**").permitAll()
                 .antMatchers("/actuator/**").permitAll()
                 .anyRequest().fullyAuthenticated()
                 .and().csrf().disable()
