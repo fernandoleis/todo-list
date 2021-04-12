@@ -18,19 +18,13 @@ Poc para armazenar e atualizar tarefas - Java 11 - SpringBoot - Banco H2 - Oauth
 `http://127.0.0.1:3000/login` <br>
 - **Prometheus**<br>
 `http://127.0.0.1:8080/todo-list/api/v1/actuator/prometheus` <br>
-
 - **Users do Sisema**<br>
-<br>
 `email: admin@admin.com`<br>
 `password: admin`<br>
-`role: ROLE_ADMIN`<br>
-<br>
-
+`role: ROLE_ADMIN`<br><br>
 `email: fulano@fulano.com`<br>
 `password: fulano`<br>
-`role: ROLE_DEFAULT`<br>
-<br>
-
+`role: ROLE_DEFAULT`<br><br>
 `email: ciclano@ciclano.com`<br>
 `password: ciclano`<br>
 `role: ROLE_DEFAULT`<br>
